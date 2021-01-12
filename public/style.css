@@ -1,0 +1,222 @@
+        *{
+            margin: 0;
+            font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+           
+          }
+          * , *:before, *:after{ 
+               box-sizing:border-box; 
+               -moz-box-sizing:border-box; 
+               -webkit-box-sizing:border-box; 
+               -ms-box-sizing:border-box;
+          }
+          body{
+             background-color: rgb(236,238,241);
+          }
+          nav{
+            background-color: rgb(236,238,241);
+            width: 100%;
+            height: 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+          }
+          
+          #login-container{
+            float: right;
+          }
+          #login-text{
+            float: left;
+            font-size: 12px;
+            line-height: 18px;
+          }
+          #login-button-container{
+            float: right;
+          }
+          #login-wrapper{
+            display: block;
+          }
+          #login-container div{
+            margin-left: 10px;
+          }
+          #account-recovery{
+            text-decoration: none;
+          }
+          #account-recovery:hover{
+            text-decoration: underline;
+          }
+          #white-lock-img{
+            background-image: url("");
+            
+          }
+          #sign-in-button{
+            background-color: rgb(0,119,197);
+            border-radius: 4px;
+            border: 1px solid rgb(76,76,76);
+            color: white;
+            height: 34px;
+            font: 400 13.3333px Arial;
+          }
+          #logo-header{
+            width: 100%;
+            height: 75px;
+            padding: 20px 0;
+          }
+          #logo{
+            display: block;
+            margin:0 auto;
+            filter: grayscale(100%);
+            height: 35px;
+            width: 118px;
+          }
+          #sign-up-container{
+            width: 378px;
+            height: 579px;
+            padding: 30px;
+            background-color: white;
+            margin: 0 auto;
+            border: 1px solid #c7c7c7;
+            border-radius: 2px;
+          }
+          
+          #sign-up-header{
+            background-color: white;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 26.4px;
+            text-align: center;
+            color: rgb(57,58,61);
+          }
+          #learn-more{
+            text-decoration: none;
+            color: rgb(0,119,197);
+            
+          }
+          #learn-more:hover{
+            text-decoration: underline;
+            
+          }
+          #sign-up-head-wrapper{
+            padding-bottom: 20px;
+          }
+          #sign-up-sub-header{
+            width: 318px;
+            padding-top: 20px;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 300;
+            line-height: 16.8px;
+            color: rgb(57,58,61);
+          }
+          #sign-up-form input{
+            width: 100%;
+            
+          }
+          #sign-up-form label{
+            height: 31px;
+            display: block;
+            font-size: 14px;
+            line-height: 25px;
+            color: rgb(64,64,64);
+            padding-bottom: 6px;
+          }
+          #sign-up-form input{
+            margin-bottom: 25px;
+            height: 32px;
+            padding-left: 8px;
+            padding-right: 6px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border: 1px solid #C1C5C8;
+            border-radius: 3px;
+            background-color: white;
+          }
+          #sign-up-form #phone{
+            margin-bottom: 0px;
+            
+          }
+          #call-info{
+            padding: 5px 0;
+            padding-bottom: 30px;
+            font-size: 10px;
+            color: #444;
+            line-height: 1.5;
+          }
+          #create-account-button{
+            background: #0077C5;
+            border: none;
+            border-radius: 4px;
+            text-transform: capitalize;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+            color: white;
+            display: inline-block;
+            cursor: pointer;
+            width: 100%;
+            height: 44px;
+            padding: 6px 12px;
+            font-size: 1.125em;
+          }
+          #create-account-button:hover{
+            background: linear-gradient(to bottom, #167CCC 0%, #0077C5 100%);
+          }
+          
+          #terms{
+            font-size: 12px;
+            font-style: italic;
+            color: #757575;
+            text-align: center;
+            line-height: 18px;
+            padding-top: 15px;
+          }
+          #terms a{
+            color: #0077C5;
+            text-decoration: none;
+            
+          }
+          #terms a:hover{
+            text-decoration: underline;
+          }
+          footer{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+          #footer-links{
+            height: auto;
+            width: auto;
+            text-align: center;
+          
+          }
+          #footer-links a{
+            text-decoration: none;
+            font-size: 12px;
+            color: rgb(80, 80, 80);
+            padding: 0 5px;
+            
+          }
+          #footer-links a:hover{
+            text-decoration: underline;
+            
+          }
+          #disclaimer{
+            text-align: center;
+            color: #505050;
+            font-size: 12px;
+            display: block;
+            margin-bottom: 50px;
+          }
+          #privacy-settings{
+            position: fixed;
+            padding: 10px 12px;
+            bottom: 0px;
+            right: 50px;
+            font-size: 14px;
+            background-color: #6B6C72;
+            border: none;
+            border-radius: 2px;
+            color: white;
+            
+          }
+          
