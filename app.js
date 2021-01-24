@@ -27,3 +27,8 @@ app.post('/Login', (req, res) => {
     console.log(req.body);
     res.render("login",{name:req.body.name});
   });  
+
+
+  app.post('/Logout', (req, res) => {
+
+  });  
