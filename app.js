@@ -30,5 +30,5 @@ app.post('/Login', (req, res) => {
 
 
   app.post('/Logout', (req, res) => {
-
+ console.log('Bhaiwa push k rahal chiyau');
   });  
